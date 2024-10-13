@@ -1,0 +1,70 @@
+.about {
+  font-weight: 700;
+  font-size: 48px;
+  font-family: "ClashDisplay-Bold";
+  padding: 40px 24px 24px 24px;
+  color: #120f07;
+  margin: 0 auto;
+  width: 1728px;
+}
+.part1 {
+  width: 1728px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.pic {
+  width: 820px;
+}
+.about-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "ClashDisplay-Regular";
+  color: #120f07;
+  padding-bottom: 16px;
+}
+.about-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #120f07;
+}
+.about-mb {
+  margin-bottom: 80px;
+}
+.about-img {
+  width: 820px;
+  height: 580px;
+  border-radius: 32px;
+}
+.part2 {
+  width: 1680px;
+  background-color: #ffe089;
+  border-radius: 32px;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.part2-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 16px;
+}
+.part2-text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "ClashDisplay-Regular";
+  color: #120f07;
+  padding-bottom: 40px;
+}
+.part2-block {
+  width: 496px;
+  padding-top: 64px;
+  padding-left: 48px;
+}

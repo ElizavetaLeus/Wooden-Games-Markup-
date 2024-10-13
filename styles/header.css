@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1758px;
+  width: 100%;
+  margin: 0 auto 24px;
+  padding-right: 23px;
+  padding-left: 24px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "ClashDisplay-Medium";
+  display: flex;
+  align-items: center;
+}
+.header-button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #d84840;
+  border-radius: 8px;
+  height: 36px;
+  width: 142px;
+  background-color: #ffcbc8;
+  border: none;
+}
+.header-crumbs {
+  display: flex;
+  gap: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #120f07;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.input {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #120f07;
+  border-radius: 12px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+}
+.input-wrapper {
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid #120f07;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+}
+.crumbs-element {
+  border: 1px solid #120f07;
+  border-radius: 50px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.crumbs-element-border {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  width: 75px;
+}

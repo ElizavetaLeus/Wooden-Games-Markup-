@@ -1,0 +1,357 @@
+body {
+  background-color: #f8f7f4;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1758px;
+  width: 100%;
+  margin: 0 auto 24px;
+  padding-right: 23px;
+  padding-left: 24px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "ClashDisplay-Medium";
+  display: flex;
+  align-items: center;
+}
+.header-button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #d84840;
+  border-radius: 8px;
+  height: 36px;
+  width: 142px;
+  background-color: #ffcbc8;
+  border: none;
+}
+.header-crumbs {
+  display: flex;
+  gap: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #120f07;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.input {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #120f07;
+  border-radius: 12px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+}
+.input-wrapper {
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid #120f07;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+}
+.crumbs-element {
+  border: 1px solid #120f07;
+  border-radius: 50px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.crumbs-element-border {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  width: 75px;
+}
+.blok1 {
+  width: 1728px;
+  height: 2098px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.crumbs {
+  display: flex;
+  gap: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #120f07;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.kartinka1-blok1 {
+  width: 820px;
+  height: 1214px;
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+}
+.text-kartinki {
+  padding: 24px 32px;
+}
+.teksyovaya-chast {
+  width: 820px;
+  background-color: #f8f7f4;
+  padding-top: 60px;
+  padding-left: 40px;
+}
+.Gigantic {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "ClashDisplay-Bold";
+  padding-bottom: 24px;
+  display: block;
+}
+
+.crumb {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  gap: 8px;
+  border: 1px solid #120f07;
+  border-radius: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  padding: 6px 14px;
+  display: flex;
+  align-items: center;
+}
+.osnovnoi-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  padding-bottom: 24px;
+}
+.controlsWrap {
+  display: flex;
+  margin-bottom: 24px;
+}
+.controlsWrap-date {
+  background-color: #ffffff;
+  width: 280px;
+  height: 138px;
+  border: 1px solid #120f07;
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+}
+.your {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.date {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  padding-left: 16px;
+}
+.time {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  padding-left: 16px;
+}
+.vibery-drygoe {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  text-decoration: underline;
+}
+.controlsWrap-price {
+  background-color: #ffffff;
+  width: 280px;
+  height: 138px;
+  border: 1px solid #120f07;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+  border-left: none;
+}
+.price {
+  width: 248px;
+  height: 32px;
+  padding-top: 16px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Rental {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 2px;
+}
+.amount {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "ClashDisplay-Regular";
+}
+.knopka-nadpis {
+  background-color: #120f07;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  width: 248px;
+  height: 50px;
+  border-radius: 12px;
+  margin: 24px 16px 16px 16px;
+}
+.kartinka2-blok1 {
+  width: 820px;
+  height: 820px;
+  border-radius: 32px;
+  margin-bottom: 64px;
+}
+.warning {
+  width: 560px;
+  height: 76px;
+  background-color: #e9e1ce4d;
+  border-radius: 16px;
+  border: 1px solid #120f07;
+  margin-bottom: 40px;
+  padding: 16px;
+  display: flex;
+}
+.warning-text {
+  color: #120f07;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  padding-left: 12px;
+}
+.podcherknyt {
+  text-decoration: underline;
+}
+.characteristic1 {
+  width: 560px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.characteristics {
+  width: 560px;
+  height: 48px;
+  border: 1px solid #120f07;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.characteristic5 {
+  width: 560px;
+  height: 48px;
+  border-top: 1px solid #120f07;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.characteristic {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.meaning {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.other-games {
+  width: 1728px;
+  margin: 0 auto 40px;
+}
+.Other-games-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "ClashDisplay-Regular";
+  color: #120f07;
+  padding-bottom: 24px;
+}
+.other-games-products {
+  background-color: #f8f7f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1728px;
+  margin: 0 auto;
+  gap: 16px;
+}
+.other-games-product {
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+  width: 549px;
+}
+.other-games-img {
+  width: 549px;
+  padding-bottom: 24px;
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+}
+.other-games-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.other-games-price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 32px;
+  padding-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+}

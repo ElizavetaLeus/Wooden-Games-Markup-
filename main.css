@@ -1,0 +1,247 @@
+body {
+  background-color: #f8f7f4;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1758px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 23px;
+  padding-left: 24px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "ClashDisplay-Medium";
+  display: flex;
+  align-items: center;
+}
+.header-button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  border-radius: 8px;
+  height: 36px;
+  width: 142px;
+  background-color: #120f07;
+  border: none;
+}
+.header-crumbs {
+  display: flex;
+  gap: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #120f07;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.input {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #00000033;
+  border-radius: 12px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+}
+.input-wrapper {
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  border-radius: 12px;
+  color: white;
+  border: 1px solid #120f07;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+}
+.crumbs-element {
+  border: 1px solid #120f07;
+  border-radius: 50px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+}
+.crumbs-element-border {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  width: 75px;
+}
+.hero-section {
+  width: 1680px;
+  border-radius: 32px;
+  background-color: #ffe089;
+  border: none;
+  padding: 48px;
+  margin: 24px auto 60px;
+}
+.hero-section-title {
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 80px;
+  font-family: "ClashDisplay-Regular";
+}
+.hero-section-description {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 24px;
+  margin-bottom: 100px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hero-section-crumbs {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero-section-crumb {
+  color: #120f07;
+  border: 1.5px solid #120f07;
+  border-radius: 50px;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 auto;
+  width: 1680px;
+  margin-bottom: 40px;
+  font-family: "ClashDisplay-Regular";
+}
+.products-blok {
+  background-color: #f8f7f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1728px;
+  margin: 0 auto;
+  gap: 16px;
+}
+.products {
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+  width: 549px;
+  padding-bottom: 24px;
+}
+.products-img {
+  width: 549px;
+  padding-bottom: 24px;
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+}
+.product-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.product-sold-out {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 32px;
+  color: #d84840;
+  font-family: "Inter";
+  font-style: normal;
+}
+.price-product {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 32px;
+  padding-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.games {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 auto;
+  width: 600px;
+  color: #120f07;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 80px;
+  font-family: "ClashDisplay-Regular";
+}
+.opisanie-games {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 auto;
+  width: 600px;
+  color: #120f07;
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.domik-kartinki2 {
+  width: 1728px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 16px;
+  margin-bottom: 104px;
+  justify-content: center;
+}
+.example-img {
+  width: 832px;
+  height: 620px;
+  border-radius: 32px;
+}
+.text-vnizu {
+  margin-bottom: 80px;
+}
+.Forget {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 auto 16px;
+  width: 600px;
+  color: #120f07;
+  text-align: center;
+  font-family: "ClashDisplay-Regular";
+}
+.opisanie-forget {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 auto;
+  width: 600px;
+  color: #120f07;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+}

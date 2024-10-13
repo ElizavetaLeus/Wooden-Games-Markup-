@@ -1,0 +1,95 @@
+:root {
+  --part-widht: 1680px;
+}
+body {
+  background-color: #f8f7f4;
+}
+h1 {
+  width: 1728px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: "ClashDisplay-Bold";
+  color: #120f07;
+  padding: 40px 24px 48px 24px;
+  margin: 0 auto;
+}
+.part1 {
+  width: var(--part-widht);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 64px;
+}
+.Shipping {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "ClashDisplay-Medium";
+  color: #120f07;
+  padding-bottom: 492px;
+  padding-left: 24px;
+}
+.Q1 {
+  width: 820px;
+  border-bottom: 1px solid #120f07;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.question {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "ClashDisplay-Medium";
+  color: #120f07;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.A1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Inter";
+  color: #120f07;
+  font-style: normal;
+}
+.part2 {
+  width: var(--part-widht);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 24px;
+}
+.Local {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "ClashDisplay-Medium";
+  color: #120f07;
+  padding-bottom: 492px;
+  padding-left: 24px;
+}
+.part3 {
+  width: var(--part-widht);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 40px;
+}
+.Returns {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "ClashDisplay-Medium";
+  color: #120f07;
+  padding-bottom: 220px;
+  padding-left: 24px;
+}
+.Q2 {
+  width: 820px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
