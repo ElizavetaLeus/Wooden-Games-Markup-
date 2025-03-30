@@ -6,7 +6,7 @@
   padding-top: 41px;
   border-top: 1px solid #120f07;
 }
-.pervi-stolbik {
+.footer-column_widht {
   width: 565px;
 }
 .footer-wooden {
@@ -15,7 +15,8 @@
   line-height: 32px;
   color: #120f07;
   font-family: "ClashDisplay-Regular";
-  padding-bottom: 8px;
+  display: block;
+  margin-bottom: 8px;
 }
 .footer-we {
   font-weight: 400;
@@ -32,7 +33,7 @@
   display: flex;
   gap: 24px;
 }
-.stolbiki {
+.footer-column {
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -54,7 +55,7 @@
   font-family: "Inter";
   font-style: normal;
 }
-.footer-Copyright {
+.footer-copyright {
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;

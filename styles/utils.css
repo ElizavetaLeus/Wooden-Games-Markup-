@@ -1,0 +1,27 @@
+.mt-3 {
+  margin-top: 24px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-5 {
+  margin-bottom: 40px;
+}
+
+.ml-2 {
+  margin-left: 16px;
+}
+
+.bt_none {
+  border-top: none;
+}
+
+.bb_none {
+  border-bottom: none;
+}

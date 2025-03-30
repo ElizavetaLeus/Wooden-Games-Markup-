@@ -1,0 +1,42 @@
+.product-card {
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+  width: 549px;
+}
+
+.products-img {
+  width: 549px;
+  padding-bottom: 24px;
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+}
+
+.product-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.product-price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.product-sold-out {
+  color: #d84840;
+}
