@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/utils.css" />
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/product-card.css" />
     <link
       rel="stylesheet"
       href="./assets/fonts/ClashDisplay_Complete/Fonts/WEB/css/clash-display.css"
@@ -21,6 +22,11 @@
     <div class="popup-background"></div>
     <header class="header">
       <span class="header-title"> Wooden Games</span>
+      <div class="header-crumbs-mobile">
+        <span class="crumbs-element-border"
+          >Cart <span class="crumbs-element-text">0</span></span
+        >
+      </div>
       <div class="input-wrapper">
         <input class="input" placeholder="8 November 2023" type="text" />
         <button class="button button_secondary">Reset</button>
@@ -40,43 +46,43 @@
         <span class="popup-close">Close</span>
       </div>
       <div class="popup-products">
-        <div class="popup-product">
+        <div class="popup-product-tablet">
           <img
             src="./assets/img/eb1ba7a80c4cf2ffdc9ea94f7d9295f4.png"
-            class="product-img"
+            class="product-img-tablet"
           />
-          <div class="product-info">
-            <div class="product-title">
-              <span class="product-name">Zigzag</span>
-              <span class="product-price">56.00 ₾ / Day</span>
+          <div class="product-info-tablet">
+            <div class="product-title-tablet">
+              <span class="product-name-tablet">Zigzag</span>
+              <span class="product-price-tablet">56.00 ₾ / Day</span>
             </div>
-            <span class="product-delete">Delete</span>
+            <span class="product-delete-tablet">Delete</span>
           </div>
         </div>
-        <div class="popup-product">
+        <div class="popup-product-tablet">
           <img
             src="./assets/img/2f41e77c1c808917d27846c361ce2308.jpg"
-            class="product-img"
+            class="product-img-tablet"
           />
-          <div class="product-info">
-            <div class="product-title">
-              <span class="product-name">Gigantic Jenga</span>
-              <span class="product-price">56.00 ₾ / Day</span>
+          <div class="product-info-tablet">
+            <div class="product-title-tablet">
+              <span class="product-name-tablet">Gigantic Jenga</span>
+              <span class="product-price-tablet">56.00 ₾ / Day</span>
             </div>
-            <span class="product-delete">Delete</span>
+            <span class="product-delete-tablet">Delete</span>
           </div>
         </div>
-        <div class="popup-product">
+        <div class="popup-product-tablet">
           <img
             src="./assets/img/5ebacbe40ef54e0887a3dbae961e6cbb.png"
-            class="product-img"
+            class="product-img-tablet"
           />
-          <div class="product-info">
-            <div class="product-title">
-              <p class="product-name">Rochefort</p>
-              <p class="product-price">56.00 ₾ / Day</p>
+          <div class="product-info-tablet">
+            <div class="product-title-tablet">
+              <p class="product-name-tablet">Rochefort</p>
+              <p class="product-price-tablet">56.00 ₾ / Day</p>
             </div>
-            <p class="product-delete">Delete</p>
+            <p class="product-delete-tablet">Delete</p>
           </div>
         </div>
       </div>
@@ -237,6 +243,24 @@
       </div>
     </div>
     <div class="products-wrap">
+      <div class="products-slider">
+        <img
+          src="./assets/img/da6adb5a12711cab48072c46f1c88ae3.png"
+          class="products-slider-img"
+        />
+        <img
+          src="./assets/img/2f41e77c1c808917d27846c361ce2308.jpg"
+          class="products-slider-img"
+        />
+        <img
+          src="./assets/img/38298d33cfc67ba75c3684714951f7bc.png"
+          class="products-slider-img"
+        />
+      </div>
+      <img
+        class="main-img"
+        src="./assets/img/2f41e77c1c808917d27846c361ce2308.jpg"
+      />
       <img
         class="main-img"
         src="./assets/img/2f41e77c1c808917d27846c361ce2308.jpg"
@@ -604,8 +628,8 @@
             class="products-img"
           />
           <div class="product-card-info">
-            <span class="product-name">Zigzag <br /> </span>
-            <span class="product-price">56.00 ₾</span>
+            <span class="product-name-tablet">Zigzag <br /> </span>
+            <span class="product-price-tablet">56.00 ₾</span>
           </div>
         </div>
         <div class="product-card">
@@ -614,8 +638,8 @@
             class="products-img"
           />
           <div class="product-card-info">
-            <span class="product-name">Gigantic Jenga <br /> </span>
-            <span class="product-price">56.00 ₾</span>
+            <span class="product-name-tablet">Gigantic Jenga <br /> </span>
+            <span class="product-price-tablet">56.00 ₾</span>
           </div>
         </div>
         <div class="product-card">
@@ -624,54 +648,54 @@
             class="products-img"
           />
           <div class="product-card-info">
-            <span class="product-name">Rochefort <br /> </span>
-            <span class="product-price">56.00 ₾</span>
+            <span class="product-name-tablet">Rochefort <br /> </span>
+            <span class="product-price-tablet">56.00 ₾</span>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footer">
+        <div class="footer-column_widht">
+          <span class="footer-wooden">Wooden Games <br /></span>
+          <span class="footer-we"
+            >We will bring and install our precious <br />
+            wood games at your event!</span
+          >
+        </div>
+        <div class="footer-group">
+          <div class="footer-column">
+            <span class="title-footer">Contact</span>
+            <span class="sub-title-footer">woodengames@gmail.com</span>
+            <span class="sub-title-footer">+995 (325) 432-432</span>
+            <span class="sub-title-footer">English</span>
+          </div>
+          <div class="footer-column">
+            <span class="title-footer">Woden Games</span>
+            <span class="sub-title-footer">Products</span>
+            <span class="sub-title-footer">About Us</span>
+            <span class="sub-title-footer">Find Us</span>
+          </div>
+          <div class="footer-column">
+            <span class="title-footer">Information</span>
+            <span class="sub-title-footer">FAQ — Rent and Return</span>
+            <span class="sub-title-footer">Users Review</span>
+            <span class="sub-title-footer">Privacy Policy</span>
+            <span class="sub-title-footer">Cookies Settings</span>
+          </div>
+          <div class="footer-column">
+            <span class="title-footer">Social</span>
+            <span class="sub-title-footer">Instagram</span>
+            <span class="sub-title-footer">Facebook</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        Copyright © 2023 Craft Games. All rights reserved. <br />
+        Information about the cost of games and game sets for rent is not a
+        public offer and does not include self-employment tax.Images of games in
+        photos may differ from the originals.
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="footer">
-      <div class="footer-column_widht">
-        <span class="footer-wooden">Wooden Games <br /></span>
-        <span class="footer-we"
-          >We will bring and install our precious <br />
-          wood games at your event!</span
-        >
-      </div>
-      <div class="footer-group">
-        <div class="footer-column">
-          <span class="title-footer">Contact</span>
-          <span class="sub-title-footer">woodengames@gmail.com</span>
-          <span class="sub-title-footer">+995 (325) 432-432</span>
-          <span class="sub-title-footer">English</span>
-        </div>
-        <div class="footer-column">
-          <span class="title-footer">Woden Games</span>
-          <span class="sub-title-footer">Products</span>
-          <span class="sub-title-footer">About Us</span>
-          <span class="sub-title-footer">Find Us</span>
-        </div>
-        <div class="footer-column">
-          <span class="title-footer">Information</span>
-          <span class="sub-title-footer">FAQ — Rent and Return</span>
-          <span class="sub-title-footer">Users Review</span>
-          <span class="sub-title-footer">Privacy Policy</span>
-          <span class="sub-title-footer">Cookies Settings</span>
-        </div>
-        <div class="footer-column">
-          <span class="title-footer">Social</span>
-          <span class="sub-title-footer">Instagram</span>
-          <span class="sub-title-footer">Facebook</span>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      Copyright © 2023 Craft Games. All rights reserved. <br />
-      Information about the cost of games and game sets for rent is not a public
-      offer and does not include self-employment tax.Images of games in photos
-      may differ from the originals.
-    </div>
-  </footer>
 </html>

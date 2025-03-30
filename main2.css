@@ -28,13 +28,14 @@ body {
 }
 
 .text-wrap {
-  width: 820px;
+  max-width: 820px;
+  width: 100%;
   background-color: #f8f7f4;
   padding-top: 60px;
   padding-left: 40px;
 }
 
-.Gigantic {
+.text-wrap-title {
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
@@ -208,7 +209,7 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  font-family: "ClashDisplay-Regular";
+  font-family: "ClashDisplay-Bold";
   color: #120f07;
   padding-bottom: 24px;
 }
@@ -223,7 +224,7 @@ body {
 }
 
 .products-slider {
-  gap: 8px;
+  display: none;
 }
 
 .products-slider-img {
@@ -242,8 +243,29 @@ body {
   }
   .products-slider {
     display: flex;
-    gap: 8px;
     position: relative;
     left: -180px;
+  }
+  .text-wrap {
+    padding-top: 24px;
+    padding-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 414px;
+  }
+  .text-wrap-title {
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .other-games {
+    padding-top: 24px;
+    padding-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 414px;
+  }
+  .Other-games-title {
+    font-size: 34px;
+    line-height: 36px;
   }
 }

@@ -79,9 +79,13 @@
     font-size: 34px;
     line-height: 36px;
     margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
   }
   .part1 {
     display: block;
+    padding: 24px 16px;
   }
   .pic {
     max-width: 360px;
@@ -95,9 +99,10 @@
     max-width: 328px;
     font-size: 14px;
     line-height: 22px;
+    padding-bottom: 24px;
   }
   .about-img {
-    width: 328px;
+    width: 382px;
     height: 250px;
   }
   .about-mb {
@@ -106,5 +111,30 @@
   .pic:nth-child(2) {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .part2 {
+    width: 382px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .part2-img {
+    width: 140px;
+    height: 140px;
+  }
+  .part2-block {
+    padding-left: 24px;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0;
+  }
+  .part2-text {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 0;
   }
 }
