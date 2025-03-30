@@ -6,9 +6,7 @@
   margin: 24px auto 60px;
   border: none;
 }
-.hero-section-mobile {
-  display: none;
-}
+
 .hero-section-title {
   font-weight: 700;
   font-size: 88px;
@@ -38,9 +36,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-.hero-section-crumbs-mobile {
-  display: none;
+  flex-wrap: wrap;
 }
 .hero-section-crumb {
   color: #120f07;
@@ -113,44 +109,58 @@
 
 @media screen and (max-width: 414px) {
   .hero-section {
-    flex-wrap: wrap;
+    max-width: 328px;
+    padding: 20px;
   }
-  .hero-section-crumbs-mobile {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 26px;
-    gap: 40px;
-    display: flex;
-    align-items: center;
-  }
-  .hero-section-crumbs {
-    display: none;
-  }
-  .hero-section-mobile {
-    width: 328px;
-    border-radius: 32px;
-    background-color: #ffe089;
-    padding: 16px;
-    margin: 0 auto;
-  }
-  .hero-section-title-mobile {
-    font-weight: 700;
+  .hero-section-title {
     font-size: 34px;
     line-height: 36px;
-    font-family: "ClashDisplay-Regular";
-    max-width: 288px;
-    width: 100%;
     margin-bottom: 12px;
   }
-  .hero-section-description-mobile {
-    font-weight: 500;
+  .hero-section-description {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 64px;
-    font-family: "Inter";
-    font-weight: 500;
-    font-style: normal;
-    max-width: 288px;
-    width: 100%;
+  }
+  .hero-section-crumb {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .hero-section-crumbs {
+    gap: 12px;
+  }
+  .products-wrap {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .products-title {
+    padding-left: 16px;
+    max-width: 173px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .games {
+    width: 312px;
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .description-games {
+    width: 328px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .description-games-mb {
+    margin-bottom: 24px;
+  }
+  .example-img {
+    width: 328px;
+    height: 250px;
+  }
+  .about-games-imgs-wrap {
+    width: 328px;
+    margin-bottom: 88px;
+  }
+  .description-games-mb {
+    margin-bottom: 80px;
   }
 }
