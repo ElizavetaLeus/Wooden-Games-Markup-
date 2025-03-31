@@ -1,6 +1,3 @@
-body {
-  background-color: #f8f7f4;
-}
 .products-wrap {
   width: 1728px;
   height: 2098px;
@@ -246,6 +243,9 @@ body {
     position: relative;
     left: -180px;
   }
+  .main-img {
+    display: none;
+  }
   .text-wrap {
     padding-top: 24px;
     padding-left: 16px;
@@ -264,7 +264,7 @@ body {
     flex-wrap: wrap;
     width: 414px;
   }
-  .Other-games-title {
+  .other-games-title {
     font-size: 34px;
     line-height: 36px;
   }

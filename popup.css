@@ -57,12 +57,15 @@
   display: flex;
   gap: 12px;
   align-items: center;
+  flex-wrap: wrap;
 }
-.popup-date {
+
+.popup-time {
   font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  font-family: "ClashDisplay-Bold";
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Inter";
+  font-style: normal;
 }
 .popup-choose {
   font-weight: 400;
@@ -329,9 +332,6 @@
   margin: 0 auto;
   gap: 16px;
 }
-.products-slider {
-  display: none;
-}
 
 .products-slider-img {
   max-width: 252px;
@@ -368,6 +368,14 @@
     font-family: "Inter";
     font-style: normal;
   }
+  .popup-time {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    width: 176px;
+    font-family: "Inter";
+    font-style: normal;
+  }
   .products-wrap {
     width: 414px;
     height: 362px;
@@ -400,5 +408,23 @@
   .Other-games-title {
     font-size: 34px;
     line-height: 36px;
+  }
+  .chekout-information {
+    width: 382px;
+  }
+  .chekout-title {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .chekout-price {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .warning {
+    width: 382px;
+  }
+  .warning-text {
+    font-size: 13px;
+    line-height: 20px;
   }
 }
