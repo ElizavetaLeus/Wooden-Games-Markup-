@@ -1,0 +1,119 @@
+.product-card {
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+  max-width: 549px;
+  width: 100%;
+}
+
+.products-img {
+  max-width: 549px;
+  width: 100%;
+  padding-bottom: 24px;
+  background-color: #e9e1ce4d;
+  border-radius: 32px;
+}
+
+.product-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.product-price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.product-sold-out {
+  color: #d84840;
+}
+
+.popup-product-tablet {
+  width: 566px;
+  display: flex;
+  gap: 24px;
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 16px;
+}
+.product-img-tablet {
+  width: 120px;
+  height: 120px;
+  border-radius: 32px;
+}
+.product-info-tablet {
+  display: flex;
+  flex-direction: column;
+  height: 78px;
+  justify-content: space-between;
+  padding-top: 21px;
+}
+.product-title-tablet {
+  width: 390px;
+  display: flex;
+}
+.product-name-tablet {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  width: 276px;
+}
+.product-price-tablet {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+}
+.product-delete-tablet {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 414px) {
+  .product-card {
+    width: 366px;
+  }
+  .popup-product-tablet {
+    width: 366px;
+  }
+  .product-title-tablet {
+    width: 208px;
+  }
+  .product-name-tablet {
+    width: 156px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .product-price-tablet {
+    width: 52px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .product-delete-tablet {
+    width: 40px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

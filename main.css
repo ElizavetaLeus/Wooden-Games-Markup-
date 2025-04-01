@@ -1,100 +1,19 @@
-body {
-  background-color: #f8f7f4;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1758px;
-  width: 100%;
-  margin: 0 auto;
-  padding-right: 23px;
-  padding-left: 24px;
-}
-.header-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  font-family: "ClashDisplay-Medium";
-  display: flex;
-  align-items: center;
-}
-.header-button {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  color: #fff;
-  border-radius: 8px;
-  height: 36px;
-  width: 142px;
-  background-color: #120f07;
-  border: none;
-}
-.header-crumbs {
-  display: flex;
-  gap: 40px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #120f07;
-  align-items: center;
-  font-family: "Inter";
-  font-style: normal;
-}
-.input {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  color: #00000033;
-  border-radius: 12px;
-  border: none;
-  font-family: "Inter";
-  font-style: normal;
-}
-.input-wrapper {
-  padding-top: 6px;
-  padding-right: 6px;
-  padding-bottom: 6px;
-  padding-left: 16px;
-  border-radius: 12px;
-  color: white;
-  border: 1px solid #120f07;
-  display: flex;
-  align-items: center;
-  margin-top: 12px;
-  font-family: "Inter";
-  font-weight: 600;
-  font-style: normal;
-}
-.crumbs-element {
-  border: 1px solid #120f07;
-  border-radius: 50px;
-  width: 26px;
-  height: 26px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Inter";
-  font-style: normal;
-}
-.crumbs-element-border {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  width: 75px;
-}
 .hero-section {
   width: 1680px;
   border-radius: 32px;
   background-color: #ffe089;
-  border: none;
   padding: 48px;
   margin: 24px auto 60px;
+  border: none;
 }
+
 .hero-section-title {
   font-weight: 700;
   font-size: 88px;
   line-height: 80px;
   font-family: "ClashDisplay-Regular";
+  max-width: 927px;
+  width: 100%;
 }
 .hero-section-description {
   font-weight: 500;
@@ -105,6 +24,8 @@ body {
   font-family: "Inter";
   font-weight: 500;
   font-style: normal;
+  max-width: 594px;
+  width: 100%;
 }
 
 .hero-section-crumbs {
@@ -115,6 +36,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 .hero-section-crumb {
   color: #120f07;
@@ -126,63 +48,27 @@ body {
   padding-left: 20px;
   font-family: "Inter";
   font-style: normal;
+  flex-wrap: wrap;
 }
-.product-title {
+.products-title {
   font-weight: 700;
   font-size: 48px;
   line-height: 48px;
   margin: 0 auto;
   width: 1680px;
   margin-bottom: 40px;
-  font-family: "ClashDisplay-Regular";
+  font-family: "ClashDisplay-Bold";
 }
-.products-blok {
+.products-wrap {
   background-color: #f8f7f4;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 1728px;
   margin: 0 auto;
   gap: 16px;
 }
-.products {
-  background-color: #e9e1ce4d;
-  border-radius: 32px;
-  width: 549px;
-  padding-bottom: 24px;
-}
-.products-img {
-  width: 549px;
-  padding-bottom: 24px;
-  background-color: #e9e1ce4d;
-  border-radius: 32px;
-}
-.product-name {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 32px;
-  font-family: "Inter";
-  font-style: normal;
-}
-.product-sold-out {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  padding-left: 32px;
-  color: #d84840;
-  font-family: "Inter";
-  font-style: normal;
-}
-.price-product {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  padding-left: 32px;
-  padding-bottom: 24px;
-  font-family: "Inter";
-  font-style: normal;
-}
+
 .games {
   font-weight: 700;
   font-size: 48px;
@@ -193,9 +79,9 @@ body {
   text-align: center;
   margin-bottom: 16px;
   margin-top: 80px;
-  font-family: "ClashDisplay-Regular";
+  font-family: "ClashDisplay-Bold";
 }
-.opisanie-games {
+.description-games {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -207,7 +93,7 @@ body {
   font-family: "Inter";
   font-style: normal;
 }
-.domik-kartinki2 {
+.about-games-imgs-wrap {
   width: 1728px;
   display: flex;
   flex-wrap: wrap;
@@ -221,27 +107,64 @@ body {
   height: 620px;
   border-radius: 32px;
 }
-.text-vnizu {
-  margin-bottom: 80px;
-}
-.Forget {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
-  margin: 0 auto 16px;
-  width: 600px;
-  color: #120f07;
-  text-align: center;
-  font-family: "ClashDisplay-Regular";
-}
-.opisanie-forget {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  margin: 0 auto;
-  width: 600px;
-  color: #120f07;
-  text-align: center;
-  font-family: "Inter";
-  font-style: normal;
+
+@media screen and (max-width: 414px) {
+  .hero-section {
+    max-width: 382px;
+    padding: 20px;
+  }
+  .hero-section-title {
+    font-size: 34px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+  .hero-section-description {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 64px;
+  }
+  .hero-section-crumb {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .hero-section-crumbs {
+    gap: 12px;
+  }
+  .products-wrap {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+  }
+  .products-title {
+    padding-left: 16px;
+    max-width: 173px;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .games {
+    width: 312px;
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .description-games {
+    width: 328px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .description-games-mb {
+    margin-bottom: 24px;
+  }
+  .example-img {
+    width: 328px;
+    height: 250px;
+  }
+  .about-games-imgs-wrap {
+    width: 328px;
+    margin-bottom: 88px;
+  }
+  .description-games-mb {
+    margin-bottom: 80px;
+  }
 }

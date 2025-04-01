@@ -5,41 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="main2.css" />
-    <link rel="stylesheet" href="../деревяшки/styles/footer.css" />
-    <link rel="stylesheet" href="../деревяшки/styles/general.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/product-card.css" />
     <link
       rel="stylesheet"
-      href="../деревяшки/assets/fonts/ClashDisplay_Complete/Fonts/WEB/css/clash-display.css"
+      href="./assets/fonts/ClashDisplay_Complete/Fonts/WEB/css/clash-display.css"
     />
-    <link
-      rel="stylesheet"
-      href="../деревяшки/assets/fonts/Inter/stylesheet.css"
-    />
+    <link rel="stylesheet" href="./assets/fonts/Inter/stylesheet.css" />
   </head>
   <body>
     <header class="header">
       <span class="header-title"> Wooden Games</span>
+      <div class="header-crumbs-mobile">
+        <span class="crumbs-element-border"
+          >Cart <span class="crumbs-element-text">0</span></span
+        >
+      </div>
       <div class="input-wrapper">
         <input class="input" placeholder="8 November 2023" type="text" />
-        <button class="header-button">Reset</button>
+        <button class="button button_secondary">Reset</button>
       </div>
       <div class="header-crumbs">
         <span>About Us</span>
         <span>Rental Rules</span>
         <span>English</span>
         <span class="crumbs-element-border"
-          >Cart <span class="crumbs-element">0</span></span
+          >Cart <span class="crumbs-element-text">0</span></span
         >
       </div>
     </header>
-    <div class="blok1">
+    <div class="products-slider">
       <img
-        class="kartinka1-blok1"
-        src="../деревяшки/assets/img/2f41e77c1c808917d27846c361ce2308.jpg"
+        src="./assets/img/da6adb5a12711cab48072c46f1c88ae3.png"
+        class="products-slider-img"
       />
-      <div class="teksyovaya-chast">
-        <span class="Gigantic">Gigantic Jenga</span>
-        <div class="crumbs">
+      <img
+        src="./assets/img/2f41e77c1c808917d27846c361ce2308.jpg"
+        class="products-slider-img"
+      />
+      <img
+        src="./assets/img/38298d33cfc67ba75c3684714951f7bc.png"
+        class="products-slider-img"
+      />
+    </div>
+    <div class="products-wrap">
+      <img
+        class="main-img"
+        src="./assets/img/2f41e77c1c808917d27846c361ce2308.jpg"
+      />
+      <div class="text-wrap">
+        <span class="text-wrap-title">Gigantic Jenga</span>
+        <div class="crumbs mb-5">
           <div class="crumb">
             <svg
               width="16"
@@ -196,36 +216,32 @@
             <span>Weight: 56 - 70kg</span>
           </div>
         </div>
-        <div class="osnovnoi-text">
+        <div class="main-text">
           Many people are familiar with this game, but at this size it's a very
-          different <br />
-          experience. Players need to be extremely careful not to get hit by a
-          weighty brick from <br />
-          a falling tower. Be especially careful if there are children or people
-          with disabilities in <br />
-          the immediate vicinity. <br />
-          <br />
-          The aim of the game is to pull a brick from anywhere except the first
-          two rows from <br />
-          the top and place it on top of the tower. When pulling it out, the
-          neighbouring bricks <br />
-          must not be touched. As the tower grows, it becomes less stable, the
-          player who <br />
-          collapses the tower loses.
+          different experience. Players need to be extremely careful not to get
+          hit by a weighty brick from a falling tower. Be especially careful if
+          there are children or people with disabilities in the immediate
+          vicinity. The aim of the game is to pull a brick from anywhere except
+          the first two rows from the top and place it on top of the tower. When
+          pulling it out, the neighbouring bricks must not be touched. As the
+          tower grows, it becomes less stable, the player who collapses the
+          tower loses.
         </div>
         <div class="controlsWrap">
           <div class="controlsWrap-date">
             <div class="your">Your Date:</div>
             <div class="date">8 November 2023</div>
             <div class="time">09:00 - 16:00</div>
-            <div class="vibery-drygoe">Choose another date</div>
+            <div class="choose-another">Choose another date</div>
           </div>
           <div class="controlsWrap-price">
             <div class="price">
-              <div class="Rental">Rental price:</div>
+              <div class="rental">Rental price:</div>
               <div class="amount">56.00 ₾</div>
             </div>
-            <button class="knopka-nadpis">Add to Cart</button>
+            <button class="button button_primary button_large mt-3 mr-2 ml-2">
+              Add to Cart
+            </button>
           </div>
         </div>
         <div class="warning">
@@ -358,10 +374,10 @@
           </svg>
           <span class="warning-text">
             Before booking the game, please read the terms <br />
-            and <span class="podcherknyt">conditions of the rental</span>
+            and <span class="underline">conditions of the rental</span>
           </span>
         </div>
-        <div class="characteristic1">
+        <div class="characteristics bt_none">
           <div class="characteristic">Materials</div>
           <div class="meaning">Ash, Oak, plywood</div>
         </div>
@@ -379,93 +395,93 @@
           <div class="characteristic">Brick dimensions</div>
           <div class="meaning">24x4,5 cm</div>
         </div>
-        <div class="characteristic5">
+        <div class="characteristics">
           <div class="characteristic">Weight</div>
           <div class="meaning">56 - 70kg</div>
         </div>
       </div>
       <img
-        class="kartinka2-blok1"
-        src="../деревяшки/assets/img/38298d33cfc67ba75c3684714951f7bc.png"
+        class="example-img"
+        src="./assets/img/38298d33cfc67ba75c3684714951f7bc.png"
       />
     </div>
     <div class="other-games">
-      <div class="Other-games-title">Other games</div>
+      <div class="other-games-title">Other games</div>
       <div class="other-games-products">
-        <div class="other-games-product">
+        <div class="product-card">
           <img
-            src="../деревяшки/assets/img/1d659a0e737d43868dddc2f2d2cd605f.webp"
-            class="other-games-img"
+            src="./assets/img/1d659a0e737d43868dddc2f2d2cd605f.webp"
+            class="products-img"
           />
-          <div class="other-games-info">
-            <span class="other-games-name">Zigzag <br /> </span>
-            <span class="other-games-price">56.00 ₾</span>
+          <div class="product-card-info">
+            <span class="product-name">Zigzag <br /> </span>
+            <span class="product-price">56.00 ₾</span>
           </div>
         </div>
-        <div class="other-games-product">
+        <div class="product-card">
           <img
-            src="../деревяшки/assets/img/1d659a0e737d43868dddc2f2d2cd605f.webp"
-            class="other-games-img"
+            src="./assets/img/1d659a0e737d43868dddc2f2d2cd605f.webp"
+            class="products-img"
           />
-          <div class="other-games-info">
-            <span class="other-games-name">Gigantic Jenga <br /> </span>
-            <span class="other-games-price">56.00 ₾</span>
+          <div class="product-card-info">
+            <span class="product-name">Gigantic Jenga <br /> </span>
+            <span class="product-price">56.00 ₾</span>
           </div>
         </div>
-        <div class="other-games-product">
+        <div class="product-card">
           <img
-            src="../деревяшки/assets/img/1d659a0e737d43868dddc2f2d2cd605f.webp"
-            class="other-games-img"
+            src="./assets/img/1d659a0e737d43868dddc2f2d2cd605f.webp"
+            class="products-img"
           />
-          <div class="other-games-info">
-            <span class="other-games-name">Rochefort <br /> </span>
-            <span class="other-games-price">56.00 ₾</span>
+          <div class="product-card-info">
+            <span class="product-name">Rochefort <br /> </span>
+            <span class="product-price">56.00 ₾</span>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footer">
+        <div class="footer-column_widht">
+          <span class="footer-wooden">Wooden Games <br /></span>
+          <span class="footer-we"
+            >We will bring and install our precious <br />
+            wood games at your event!</span
+          >
+        </div>
+        <div class="footer-group">
+          <div class="footer-column">
+            <span class="title-footer">Contact</span>
+            <span class="sub-title-footer">woodengames@gmail.com</span>
+            <span class="sub-title-footer">+995 (325) 432-432</span>
+            <span class="sub-title-footer">English</span>
+          </div>
+          <div class="footer-column">
+            <span class="title-footer">Woden Games</span>
+            <span class="sub-title-footer">Products</span>
+            <span class="sub-title-footer">About Us</span>
+            <span class="sub-title-footer">Find Us</span>
+          </div>
+          <div class="footer-column">
+            <span class="title-footer">Information</span>
+            <span class="sub-title-footer">FAQ — Rent and Return</span>
+            <span class="sub-title-footer">Users Review</span>
+            <span class="sub-title-footer">Privacy Policy</span>
+            <span class="sub-title-footer">Cookies Settings</span>
+          </div>
+          <div class="footer-column">
+            <span class="title-footer">Social</span>
+            <span class="sub-title-footer">Instagram</span>
+            <span class="sub-title-footer">Facebook</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        Copyright © 2023 Craft Games. All rights reserved. <br />
+        Information about the cost of games and game sets for rent is not a
+        public offer and does not include self-employment tax.Images of games in
+        photos may differ from the originals.
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="footer">
-      <div class="pervi-stolbik">
-        <span class="footer-wooden">Wooden Games <br /></span>
-        <span class="footer-we"
-          >We will bring and install our precious <br />
-          wood games at your event!</span
-        >
-      </div>
-      <div class="footer-group">
-        <div class="stolbiki">
-          <span class="title-footer">Contact</span>
-          <span class="sub-title-footer">woodengames@gmail.com</span>
-          <span class="sub-title-footer">+995 (325) 432-432</span>
-          <span class="sub-title-footer">English</span>
-        </div>
-        <div class="stolbiki">
-          <span class="title-footer">Woden Games</span>
-          <span class="sub-title-footer">Products</span>
-          <span class="sub-title-footer">About Us</span>
-          <span class="sub-title-footer">Find Us</span>
-        </div>
-        <div class="stolbiki">
-          <span class="title-footer">Information</span>
-          <span class="sub-title-footer">FAQ — Rent and Return</span>
-          <span class="sub-title-footer">Users Review</span>
-          <span class="sub-title-footer">Privacy Policy</span>
-          <span class="sub-title-footer">Cookies Settings</span>
-        </div>
-        <div class="stolbiki">
-          <span class="title-footer">Social</span>
-          <span class="sub-title-footer">Instagram</span>
-          <span class="sub-title-footer">Facebook</span>
-        </div>
-      </div>
-    </div>
-    <div class="footer-info">
-      Copyright © 2023 Craft Games. All rights reserved. <br />
-      Information about the cost of games and game sets for rent is not a public
-      offer and does not include self-employment tax.Images of games in photos
-      may differ from the originals.
-    </div>
-  </footer>
 </html>
